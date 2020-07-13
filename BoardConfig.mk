@@ -14,7 +14,6 @@
 # limitations under the License.
 #
 
-BOARD_VENDOR := xiaomi
 
 # MiuiCamera
 -include device/xiaomi/miuicamera-sweet/BoardConfig.mk
