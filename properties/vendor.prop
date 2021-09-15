@@ -119,6 +119,9 @@ camera.disable_zsl_mode=1
 # Dalvik
 dalvik.vm.systemuicompilerfilter=speed
 
+# Chipset
+ro.soc.manufacturer=QTI
+
 # Data modules
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
