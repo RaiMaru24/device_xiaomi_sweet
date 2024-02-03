@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/apollo_sweet.mk
+    $(LOCAL_DIR)/genesis_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    apollo_sweet-user \
-    apollo_sweet-userdebug \
-    apollo_sweet-eng
+    genesis_sweet-user \
+    genesis_sweet-userdebug \
+    genesis_sweet-eng
