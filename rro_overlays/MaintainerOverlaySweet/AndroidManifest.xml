@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.apollo.maintaineroverlay.sweet">
+    package="org.genesis.maintaineroverlay.sweet">
 
     <application android:hasCode="false" />
     <overlay android:targetPackage="com.android.settings"
