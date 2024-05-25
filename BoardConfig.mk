@@ -178,7 +178,7 @@ BOARD_USES_METADATA_PARTITION := true
 TARGET_BOARD_PLATFORM := sm6150
 
 # Power
-TARGET_POWERHAL_MODE_EXT := $(DEVICE_PATH)/configs/power/power-mode.cpp
+TARGET_POWER_LIBPERFMGR_MODE_EXTENSION_LIB := //$(DEVICE_PATH):libperfmgr-ext-xiaomi
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/odm.prop
