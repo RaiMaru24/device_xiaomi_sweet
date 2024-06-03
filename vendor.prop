@@ -207,6 +207,12 @@ debug.sf.layer_caching_active_layer_timeout_ms=500
 vendor.display.disable_metadata_dynamic_fps=1
 debug.sf.frame_rate_multiple_threshold=120
 
+# Display (AD)
+ro.vendor.display.ad=1
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
+ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
+ro.vendor.display.sensortype=2
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
