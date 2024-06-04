@@ -23,6 +23,9 @@ $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
 
+# CAll the JamesDSP
+$(call inherit-product-if-exists, vendor/JamesDSP/config.mk)
+
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 30
 
