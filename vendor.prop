@@ -208,7 +208,7 @@ vendor.display.disable_metadata_dynamic_fps=1
 debug.sf.frame_rate_multiple_threshold=120
 vendor.display.qdcm.disable_factory_mode=1
 vendor.display.qdcm.mode_combine=1
-persist.sys.sf.color_mode=9
+persist.sys.sf.color_mode=0
 
 # Display (AD)
 ro.vendor.display.ad=1
