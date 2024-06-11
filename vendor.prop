@@ -213,7 +213,6 @@ debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
 debug.sf.enable_planner_prediction=false
 
-
 # Display (AD)
 ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
