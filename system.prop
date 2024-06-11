@@ -37,6 +37,8 @@ persist.vendor.qti.telephony.vt_cam_interface=2
 
 # HWUI
 debug.hwui.skia_atrace_enabled=false
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
 
 # Media
 media.aac_51_output_enabled=true
