@@ -69,11 +69,9 @@ persist.radio.add_power_save=1
 # Render
 debug.cpurend.vsync=false
 
-
 # Recovery
 ro.recovery.ui.margin_height=48
 persist.sys.binary_xml=false
-
 
 # WiFi
 wifi.interface=wlan0
@@ -91,3 +89,6 @@ power.saving.mode=1
 
 # WiFi Display
 media.wfd.max_resolution=5
+
+#Disable MTE Async for system server
+arm64.memtag.process.system_server=off
