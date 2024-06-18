@@ -514,28 +514,19 @@ vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy
 -vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE=vendor.qti.hardware.fm@1.0_vendor
 
 # Display
-vendor/bin/qdcmss
 vendor/etc/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml
 vendor/etc/hdr_config.cfg
-vendor/etc/init/qdcmss.rc
 vendor/etc/sdr_config.cfg
-vendor/lib64/libclient2slpi.notifier.so
 vendor/lib64/libdisp-aba.so
-vendor/lib64/libdisplaydebug.so
 vendor/lib64/libdisplayqos.so
 vendor/lib64/libdpps.so
-vendor/lib64/libdrmutils.so
-vendor/lib64/libgpu_tonemapper.so
 vendor/lib64/libhdr_tm.so
-vendor/lib64/libqdutils.so
 vendor/lib64/libqseed3.so
-vendor/lib64/libqservice.so
 vendor/lib64/libsdm-color.so
 vendor/lib64/libsdm-colormgr-algo.so
 vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdm-disp-vndapis.so
 vendor/lib64/libsdmextension.so
-vendor/lib64/libsdmutils.so
 vendor/lib64/libtinyxml2_1.so
 
 # Display Post-processing
