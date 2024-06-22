@@ -66,6 +66,9 @@ function blob_fixup() {
          vendor/etc/init/vendor.qti.rmt_storage.rc)
             sed -i "/shutdown critical/ i\  group system wakelock" "${2}"
             ;;
+        vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy)
+        echo 'madvise: 1' >> ${2}
+    ;;
     esac
 }
 
