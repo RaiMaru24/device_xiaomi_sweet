@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/genesis_sweet.mk
+    $(LOCAL_DIR)/lineage_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    genesis_sweet-ap1a-user \
-    genesis_sweet-ap1a-userdebug \
-    genesis_sweet-ap1a-eng
+    lineage_sweet-ap2a-user \
+    lineage_sweet-ap2a-userdebug \
+    lineage_sweet-ap2a-eng
