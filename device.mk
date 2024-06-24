@@ -64,7 +64,8 @@ PRODUCT_PACKAGES += \
     libvolumelistener
 
 PRODUCT_PACKAGES += \
-    libaudio-resampler
+    libaudio-resampler \
+    libaudioroute.vendor
 
 PRODUCT_PACKAGES += \
     libtinycompress
@@ -217,7 +218,8 @@ PRODUCT_COPY_FILES += \
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor
+    android.hardware.gatekeeper@1.0.vendor \
+    libion.vendor
 
 # GPS
 PRODUCT_PACKAGES += \
