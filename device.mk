@@ -117,7 +117,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    libdng_sdk.vendor
+    libdng_sdk.vendor \
+    libexif.vendor \
+    libpng.vendor
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
@@ -426,9 +428,11 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     CarrierConfigOverlay \
     libjson \
+    libjsoncpp.vendor \
     libril \
     librilutils \
-    librmnetctl
+    librmnetctl \
+    libcurl.vendor
 
 # Recovery
 PRODUCT_PACKAGES += \
@@ -464,6 +468,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client
+
+# SQLite
+PRODUCT_PACKAGES += \
+    libsqlite.vendor
 
 # Telephony
 PRODUCT_PACKAGES += \
