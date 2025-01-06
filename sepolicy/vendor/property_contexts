@@ -10,9 +10,6 @@ ro.hardware.fp                     u:object_r:vendor_fp_prop:s0
 vendor.panel.display               u:object_r:vendor_fp_prop:s0
 vendor.fps_hal.                    u:object_r:vendor_fp_prop:s0
 
-# Hardware
-ro.hardware.chipname               u:object_r:build_prop:s0
-
 # Radio
 ro.vendor.ril.svlte1x                           u:object_r:vendor_radio_prop:s0
 ro.vendor.ril.svdo                              u:object_r:vendor_radio_prop:s0
@@ -30,8 +27,3 @@ persist.vendor.cnss-daemon.        u:object_r:vendor_wcnss_service_prop:s0
 
 # Xiaomi thermal daemon
 vendor.sys.thermal.                u:object_r:vendor_thermal_normal_prop:s0
-
-# Elliptic ultrasound proximity
-elliptic.ultrasound.multiple_mics. u:object_r:elliptic_ultrasound_prop:s0
-elliptic.ultrasound.               u:object_r:vendor_sensors_prop:s0
-invn.hal                           u:object_r:vendor_sensors_prop:s0
