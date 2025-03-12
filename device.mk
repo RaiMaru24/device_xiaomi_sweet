@@ -19,9 +19,6 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 
-# Call the dolby setup
-$(call inherit-product, vendor/oneplus/dolby/dolby.mk)
-
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, device/xiaomi/miuicamera-sweet/device.mk)
 
@@ -134,7 +131,8 @@ PRODUCT_COPY_FILES += \
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    XiaomiParts \
+    XiaomiDolby
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
@@ -366,7 +364,8 @@ PRODUCT_PACKAGES += \
     SettingsOverlayRR \
     SweetinproSettingsProvider \
     SweetinproWifiOverlay \
-    SweetWifiOverlay
+    SweetWifiOverlay \
+    SweetSettingsOverlay
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
