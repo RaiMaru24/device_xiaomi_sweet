@@ -10,6 +10,9 @@ invn.hal                           u:object_r:vendor_sensors_prop:s0
 # Hardware
 ro.hardware.chipname               u:object_r:build_prop:s0
 
+# HWUI
+ro.hwui.render_ahead               u:object_r:default_prop:s0
+
 # Sensors
 persist.sensor.                    u:object_r:persist_sensors_prop:s0
 
